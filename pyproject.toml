@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nepali-citizen-transliterator"
+version = "1.0.0"
+authors = [
+    {name = "theFoolishOne", email = "manjilbbudhathoki@gmail.com"},
+]
+description = "Convert Romanized Nepali names/addresses to Devanagari script"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["nepali", "devanagari", "transliteration", "citizen"]

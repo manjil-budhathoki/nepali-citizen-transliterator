@@ -7,8 +7,8 @@ A specialized Python library for transliterating Romanized Nepali personal data
 
 from .transliterator import CitizenTransliterator
 
-__version__ = "1.0.0"
+__version__ = "1.0.2"
 __author__ = "theFoolishOne"
 __email__ = "manjilbbudhathoki@gmail.com"
 
-__all__ = ["CitizenTransliterator"]
+__all__ = ["CitizenTransliterator", "NepaliPatterns"]
